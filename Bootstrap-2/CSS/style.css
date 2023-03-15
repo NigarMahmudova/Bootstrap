@@ -1,0 +1,79 @@
+.caption {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.text::before {
+    content: 'Digital';
+    font-size: 10rem;
+    color: #f7f7f7;
+    line-height: 15rem;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+h2 {
+    padding-top: 10rem;
+    font-size: 36px;
+    color: #222222;
+    line-height: 46px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+}
+
+.box {
+    background: #f2f2f2;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.top img {
+    width: 100%;
+    transition: .8s;
+}
+
+.top {
+    position: relative;
+    overflow: hidden;
+}
+
+.top:hover>img {
+    transform: scale(1.1);
+}
+
+.icons {
+    position: absolute;
+    background-color: #fff;
+    padding: 15px 0;
+    width: 35px;
+    text-align: center;
+    border-radius: 15px;
+    top: 25px;
+    right: 25px;
+
+}
+
+.bottom-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+span {
+    line-height: 22px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.stars i {
+    color: #8c8c8c;
+}
